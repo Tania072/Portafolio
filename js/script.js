@@ -135,9 +135,9 @@ function showPage(pageIndex) {
 
 function nextPage() {
     if (currentPage < totalPages - 1 && !isAnimating) {
+        const nextPageIndex = currentPage + 1;
         
         // Animación de giro
-        const nextPageIndex = currentPage + 1;
         pages[currentPage].classList.add('flipping');
         
         setTimeout(() => {
@@ -152,6 +152,7 @@ function previousPage() {
         
         // Remover clase flipping de la página anterior
         pages[prevPageIndex].classList.remove('flipping');
+        
         showPage(prevPageIndex);
     }
 }
