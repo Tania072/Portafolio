@@ -13,13 +13,11 @@ Un catálogo interactivo con efecto de pasar páginas como un libro real.
 - HTML5
 - CSS3 (Grid, Flexbox, Transformaciones 3D)
 - JavaScript Vanilla
-
-
 ## Estructura del proyecto
 catalogo-libro/
 ├── index.html
 ├── css/
-│ └── style.css
+│ └── style.css 
 ├── js/
 │ └── script.js
 ├── Images/

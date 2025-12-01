@@ -169,7 +169,6 @@ function startDragTouch(e) {
     if (isAnimating) return;
     isDragging = true;
     startX = e.touches[0].clientX;
-    e.preventDefault();
 }
 
 function dragPage(e) {
@@ -201,8 +200,8 @@ function dragPageTouch(e) {
             previousPage();
         }
         endDragTouch();
+        e.preventDefault();
     }
-    e.preventDefault();
 }
 
 function endDrag() {
@@ -273,7 +272,7 @@ function closeModal() {
 
 // Función para solicitar información por WhatsApp
 function solicitarInfoWhatsApp(producto) {
-    const telefono = "50322223333";
+    const telefono = "50379254338";
     const mensaje = `¡Hola! Estoy interesado/a en el producto: ${producto}. ¿Podrían proporcionarme más información sobre disponibilidad, precios y tiempos de entrega?`;
     
     const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;

@@ -66,8 +66,8 @@ body {
 }
 
 .book {
-    width: min(95vw, 900px);
-    height: min(85vh, 700px);
+    width: min(100vw, 1400px);
+    height: min(95vh, 900px);
     position: relative;
     transform-style: preserve-3d;
     cursor: grab;
@@ -545,7 +545,7 @@ body {
 @media (max-width: 1024px) {
     .book {
         width: 96vw;
-        height: 75vh;
+        height: 100vh;
         perspective: 1200px;
     }
     
@@ -576,7 +576,7 @@ body {
     
     .book {
         width: 98vw;
-        height: 70vh;
+        height: 100vh;
         perspective: 1000px;
     }
     
@@ -626,7 +626,7 @@ body {
 
 @media (max-width: 480px) {
     .book {
-        height: 65vh;
+        height: 96vh;
     }
     
     .page-content {
