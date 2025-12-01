@@ -14,11 +14,6 @@ Un catálogo interactivo con efecto de pasar páginas como un libro real.
 - CSS3 (Grid, Flexbox, Transformaciones 3D)
 - JavaScript Vanilla
 
-## Cómo usar
-1. Abre `index.html` en tu navegador
-2. Navega con las flechas ← → o deslizando
-3. Haz clic en imágenes para ampliarlas
-4. Usa los botones para contactar por WhatsApp
 
 ## Estructura del proyecto
 catalogo-libro/
